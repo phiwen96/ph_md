@@ -48,4 +48,3 @@ Explanation of examples.
 (@good)  This is a good example.
 
 As [@good] illustrates
-

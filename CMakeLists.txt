@@ -2,7 +2,9 @@ cmake_minimum_required (VERSION 3.19.4)
 get_filename_component (self ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 project (${self})
 
-set (xelatex "/usr/local/texlive/2021/bin/universal-darwin/xelatex")
+# set (xelatex "/usr/local/texlive/2021/bin/arm64/xelatex")
+set (xelatex "/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/arm64/xelatex")
+
 
 add_custom_target (pdf ALL)
 add_custom_target (epub ALL)
